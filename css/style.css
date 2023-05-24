@@ -8,6 +8,7 @@
   --btn-color: #f4f4fd;
   --btn-edging: #e7e9fc;
   --company: #8e8f99;
+  --footer-social: #31d0aa;
 }
 
 body {
@@ -465,7 +466,12 @@ img {
   color: var(--title-text);
 }
 
-.media {
+.social-link:hover,
+.social-link:focus {
+  color: var(--footer-social);
+}
+
+.social-link {
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
