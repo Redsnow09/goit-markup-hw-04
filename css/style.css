@@ -43,13 +43,13 @@ img {
 
 .section {
   padding: 120px 0;
-  /* outline: 2px solid greenyellow;*/
+  outline: 2px solid greenyellow;
 }
 
 .container {
   padding: 0 15px;
   margin: 0 auto;
-  /* outline: 2px solid red;*/
+  outline: 2px solid red;
   width: 1158px;
 }
 
@@ -129,9 +129,17 @@ img {
 
 /**---------------SECTION 1--------------**/
 .title-top-section {
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/office.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
   margin: 0 auto;
   padding: 188px 0;
-  background: var(--footer-color);
+  max-width: 1440px;
 }
 
 .title {
