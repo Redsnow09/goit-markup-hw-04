@@ -287,11 +287,12 @@ img {
 
   color: var(--menu-color);
 }
-/**--------------section-five---------------**/
+/**--------------SECTION 5---------------**/
 .section-five section {
 }
 
 .customers {
+  margin-bottom: 72px;
   font-size: 36px;
   text-align: center;
   letter-spacing: 0.02em;
@@ -303,6 +304,10 @@ img {
 .company {
   display: flex;
   gap: 24px;
+}
+.company-item:hover,
+.company-item:focus {
+  color: var(--buttom-color);
 }
 
 .company-item {
@@ -319,7 +324,7 @@ img {
   justify-content: center;
   color: var(--company);
 }
-/**---------------portfolio-main--------------**/
+/**---------------PORTFOLIO--------------**/
 
 .section-main-portfolio {
   padding: 96px 0 120px;
