@@ -433,7 +433,13 @@ img {
   padding: 100px 0;
   background: var(--footer-color);
 }
-.footer-div {
+.footer-container {
+  display: flex;
+  align-items: baseline;
+}
+
+.logo-div {
+  gap: 120px;
 }
 .footer-text {
   font-size: 16px;
