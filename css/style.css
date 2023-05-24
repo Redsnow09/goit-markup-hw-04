@@ -471,6 +471,11 @@ img {
   color: var(--footer-social);
 }
 
+.social-list {
+  display: flex;
+  gap: 16px;
+}
+
 .social-link {
   font-weight: 500;
   line-height: 1.5;
@@ -486,7 +491,11 @@ img {
   justify-content: center;
   color: var(--header-color);
 }
-.social-list {
-  display: flex;
-  gap: 16px;
+
+.media {
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  margin-bottom: 16px;
+  color: var(--header-color);
 }
