@@ -189,6 +189,7 @@ img {
   max-width: 264px;
   height: 112px;
   border-radius: 4px;
+  margin-bottom: 8px;
   background-color: var(--title-text);
 }
 .icon-two {
@@ -223,7 +224,6 @@ img {
   line-height: 1.2;
   letter-spacing: 0.02em;
   margin-bottom: 8px;
-  margin-top: 8px;
   color: var(--footer-color);
 }
 
