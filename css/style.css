@@ -313,6 +313,8 @@ img {
 
 .icon-color {
   display: flex;
+  border-radius: 50%;
+  background-color: var(--button);
 }
 .icon-soc {
   width: 16px;
@@ -325,11 +327,10 @@ img {
 .twiter {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--button);
+  fill: #f4f4fd;
 }
 /**--------------SECTION 5---------------**/
 .section-five section {
