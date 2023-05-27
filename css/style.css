@@ -193,8 +193,6 @@ img {
   background-color: var(--title-text);
 }
 .icon-two {
-  width: 64px;
-  height: 64px;
 }
 
 .visually-hidden {
@@ -316,8 +314,6 @@ img {
   background-color: var(--button);
 }
 .icon-soc {
-  width: 16px;
-  height: 16px;
   fill: var(--title-text);
 }
 
