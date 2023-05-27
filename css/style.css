@@ -55,7 +55,7 @@ img {
   width: 1158px;
 }
 
-/**---------------HEADER--------------**/
+/**-----------HEADER----------**/
 .nav {
   display: flex;
   align-items: center;
@@ -129,7 +129,7 @@ img {
   color: var(--menu-color);
 }
 
-/**---------------SECTION 1--------------**/
+/**----------SECTION 1--------**/
 .title-top-section {
   background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
@@ -178,7 +178,7 @@ img {
   color: var(--header-color);
   background-color: var(--button);
 }
-/**---------------SECTION 2--------------**/
+/**-----------SECTION 2---------**/
 .section-two {
 }
 
@@ -231,7 +231,7 @@ img {
   color: var(--menu-color);
 }
 
-/**---------------SECTION 3--------------**/
+/**-----------SECTION 3---------**/
 .section-three {
   padding-top: 0;
 }
@@ -252,7 +252,7 @@ img {
 .element-foto {
   width: calc((100% - 48px) / 3);
 }
-/**---------------SECTION 4--------------**/
+/**----------SECTION 4---------**/
 .section-four {
   background-color: var(--title-text);
 }
@@ -326,7 +326,7 @@ img {
   border-radius: 50%;
   background-color: var(--button);
 }
-/**--------------SECTION 5---------------**/
+/**---------SECTION 5-------**/
 .section-five section {
 }
 
@@ -366,7 +366,7 @@ img {
 .icon-company {
   fill: currentColor;
 }
-/**---------------PORTFOLIO--------------**/
+/**---------PORTFOLIO--------**/
 
 .section-main-portfolio {
   padding: 96px 0 120px;
@@ -444,7 +444,7 @@ img {
   border-top: none;
 }
 
-/**---------------FOOTER--------------**/
+/**---------FOOTER--------**/
 .footer {
   padding: 100px 0;
   background: var(--footer-color);
