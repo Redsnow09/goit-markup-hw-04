@@ -317,6 +317,11 @@ img {
   fill: var(--title-text);
 }
 
+.twiter:hover,
+.twiter:focus {
+color: var(--buttom-color);
+}
+
 .twiter {
   width: 40px;
   height: 40px;
