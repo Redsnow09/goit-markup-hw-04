@@ -511,6 +511,10 @@ background-color: var(--buttom-color);
   height: 40px;
 }
 
+.social-link:hover,
+.social-link:focus {
+  background-color: var(--footer-social);
+}
 .social-link {
   font-weight: 500;
   line-height: 1.5;
