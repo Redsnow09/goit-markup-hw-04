@@ -319,7 +319,7 @@ img {
 
 .twiter:hover,
 .twiter:focus {
-color: var(--buttom-color);
+background-color: var(--buttom-color);
 }
 
 .twiter {
@@ -357,6 +357,12 @@ color: var(--buttom-color);
 .company-item {
   width: calc((100% - 120px) / 6);
   height: 88px;
+}
+
+.company-link:hover,
+.company-link:focus {
+  border-color:var(--buttom-color);
+  color: var(--buttom-color);
 }
 .company-link {
   width: 100%;
