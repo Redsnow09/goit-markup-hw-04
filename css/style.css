@@ -489,6 +489,8 @@ img {
 .social-list {
   display: flex;
   gap: 16px;
+  justify-content: center;
+  margin-top: 8px;
 }
 
 .social-link {
@@ -504,7 +506,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--header-color);
+  color: var(--button);
 }
 
 .media {
