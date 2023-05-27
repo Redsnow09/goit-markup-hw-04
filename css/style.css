@@ -498,8 +498,6 @@ img {
 .social-item {
   width: 40px;
   height: 40px;
-  border-radius: 50%;
-  background-color: var(--button);
 }
 
 .social-link {
@@ -512,7 +510,8 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--button);
+  border-radius: 50%;
+  background-color: var(--button);
 }
 
 .media {
