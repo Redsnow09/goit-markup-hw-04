@@ -349,7 +349,6 @@ transition: opacity 300ms linear, visibility 300ms linear;
   justify-content: center;
   gap: 24px;
   margin-top: 8px;
-  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-color {
@@ -374,6 +373,8 @@ background-color: var(--buttom-color);
   justify-content: center;
   border-radius: 50%;
   background-color: var(--button);
+  
+ transition:background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 /**---------SECTION 5-------**/
 .section-five section {
@@ -417,6 +418,7 @@ background-color: var(--buttom-color);
   align-items: center;
   justify-content: center;
   color: var(--company);
+  transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .icon-company {
   fill: currentColor;
@@ -560,6 +562,7 @@ background-color: var(--buttom-color);
   background-color: var(--footer-social);
 }
 .social-link {
+  transition:  background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   font-weight: 500;
   line-height: 1.5;
   letter-spacing: 0.02em;
